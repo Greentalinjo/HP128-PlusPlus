@@ -72,7 +72,7 @@ This MCU is a 32-Bit Cortex-M0 Micro-Controller manufactured by Sonix:
 
 https://www.sonix.com.tw/article-en-998-24755
 
-While the datasheet is available and can be downloaded from the linked web page, a footprint for KiCad was not. So I had to create my own footprint for it.
+Whilst the datasheet is available and can be downloaded from the linked web page, a symbol for KiCad was not. So I had to create my own symbol for it.
 
 ### Laser sensor - PMW3610DM-SUDU
 
@@ -93,15 +93,15 @@ A few hours, a digital multimeter in continuity mode, and some close-up images l
 
 ![Mouse_Schematic](./assets/Mouse_Schematic.jpg)
 
-Some component values were not measured due to the nee to de-solder them, and at the time of me working on this project I could not find the time to do so. These missing values are left as an exercise for the reader as is commonly said.
+Some component values were not measured due to the need to de-solder them, and at the time of me working on this project I could not find the time to do so. These missing values are left as an exercise for the reader as is commonly said.
 
 ## 1:1 PCB Recreation
 
 To recreate the PCB, A close-up image was adjusted to the correct scale and proportions using a website called Photopea:
 
-<p align="center">  <img src=".\assets\mouse_PCB.jpg" width="45%" />  <img src=".\assets\Mouse_PCB_adjusted.jpg" width="45%" /></p>
+<p align="center">  <img src="./assets/mouse_PCB.jpg" width="45%" />  <img src="./assets/Mouse_PCB_adjusted.jpg" width="45%" /></p>
 
-Then, the image was placed in the PCB view in KiCad, and all of the components and traces were places according to the image.
+Then, the image was placed in the PCB view in KiCad, and all of the components and traces were placed according to the image.
 
 The most attention demanding part were the little things - The silkscreen writings, font sizes, component outlines, etc.
 
