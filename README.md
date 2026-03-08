@@ -34,13 +34,13 @@ This project is a complete, bottom-up reverse engineering of the HP 128 laser wi
       </td>
     </tr>
     <tr>
-      <td style="vertical-align:top;">
+      <td style="vertical-align:top; padding:10px;">
         <h3 style="text-align:center;">Initial inspection</h3>
-        <p>The writing on the mouse is documenting identifying details, including the model number "TPA-P002M," a specific serial number, and the manufacturing date of "February 2024". The mouse is in its initial, fully assembled state.</p>
+        <p style="text-align:justify;">The writing on the mouse is documenting identifying details, including the model number "TPA-P002M," a specific serial number, and the manufacturing date of "February 2024". The mouse is in its initial, fully assembled state.</p>
       </td>
-      <td style="vertical-align:top;">
+      <td style="vertical-align:top; padding:10px;">
         <h3 style="text-align:center;">Bottom Screw Access and Disassembly</h3>
-        <p>Remove the sticker to reveal the primary bottom screw. Unscrew the screw and take the unit apart.</p>
+        <p style="text-align:justify;">Remove the sticker to reveal the primary bottom screw. Unscrew the screw and take the unit apart.</p>
       </td>
     </tr>
     <tr>
@@ -56,13 +56,13 @@ This project is a complete, bottom-up reverse engineering of the HP 128 laser wi
       </td>
     </tr>
     <tr>
-      <td style="vertical-align:top;">
+      <td style="vertical-align:top; padding:10px;">
         <h3 style="text-align:center;">PCB top side</h3>
-        <p>After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor.</p>
+        <p style="text-align:justify;">After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor.</p>
       </td>
-      <td style="vertical-align:top;">
+      <td style="vertical-align:top; padding:10px;">
         <h3 style="text-align:center;">PCB bottom side</h3>
-        <p>Flipping the board its finally possible to see the entire circuit. Including but not limited to the MCU, LDO, underside of the laser sensor, etc.</p>
+        <p style="text-align:justify;">Flipping the board its finally possible to see the entire circuit. Including but not limited to the MCU, LDO, underside of the laser sensor, etc.</p>
       </td>
     </tr>
   </tbody>
