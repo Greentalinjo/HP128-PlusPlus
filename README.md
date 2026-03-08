@@ -91,7 +91,7 @@ https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3610D
 ## Schematic Extraction
 A few hours, a digital multimeter in continuity mode, and some close-up images later a schematic was successfully extracted:
 
-![Mouse_Schematic](.\assets\Mouse_Schematic.jpg)
+![Mouse_Schematic](./assets/Mouse_Schematic.jpg)
 
 Some component values were not measured due to the nee to de-solder them, and at the time of me working on this project I could not find the time to do so. These missing values are left as an exercise for the reader as is commonly said.
 
