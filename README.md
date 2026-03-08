@@ -20,49 +20,49 @@ This project is a complete, bottom-up reverse engineering of the HP 128 laser wi
 <table>
   <thead>
     <tr>
-      <th style="width:50%; text-align:center;">1</th>
-      <th style="width:50%; text-align:center;">2</th>
+      <th align="center" width="50%">1</th>
+      <th align="center" width="50%">2</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="./assets/underside.jpg" style="height:300px; width:auto; max-width:100%; object-fit:contain; display:block; margin-left:auto; margin-right:auto;"/>
+      <td align="center" valign="middle">
+        <img src="./assets/underside.jpg" height="300" />
       </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="./assets/sticker_removed.jpg" style="height:300px; width:auto; max-width:100%; object-fit:contain; display:block; margin-left:auto; margin-right:auto;"/>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align:top; padding:10px;">
-        <h3 style="text-align:center;">Initial inspection</h3>
-        <p style="text-align:justify;">The writing on the mouse is documenting identifying details, including the model number "TPA-P002M," a specific serial number, and the manufacturing date of "February 2024". The mouse is in its initial, fully assembled state.</p>
-      </td>
-      <td style="vertical-align:top; padding:10px;">
-        <h3 style="text-align:center;">Bottom Screw Access and Disassembly</h3>
-        <p style="text-align:justify;">Remove the sticker to reveal the primary bottom screw. Unscrew the screw and take the unit apart.</p>
+      <td align="center" valign="middle">
+        <img src="./assets/sticker_removed.jpg" height="300" />
       </td>
     </tr>
     <tr>
-      <th style="width:50%; text-align:center;">3</th>
-      <th style="width:50%; text-align:center;">4</th>
-    </tr>
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="./assets/screw_removed_opened.jpg" style="height:300px; width:auto; max-width:100%; object-fit:contain; display:block; margin-left:auto; margin-right:auto;"/>
+      <td valign="top">
+        <h3 align="center">Initial inspection</h3>
+        <p>The writing on the mouse is documenting identifying details, including the model number "TPA-P002M," a specific serial number, and the manufacturing date of "February 2024". The mouse is in its initial, fully assembled state.</p>
       </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="./assets/scanned_mouse.jpeg" style="height:300px; width:auto; max-width:100%; object-fit:contain; display:block; margin-left:auto; margin-right:auto;"/>
+      <td valign="top">
+        <h3 align="center">Bottom Screw Access and Disassembly</h3>
+        <p>Remove the sticker to reveal the primary bottom screw. Unscrew the screw and take the unit apart.</p>
       </td>
     </tr>
     <tr>
-      <td style="vertical-align:top; padding:10px;">
-        <h3 style="text-align:center;">PCB top side</h3>
-        <p style="text-align:justify;">After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor.</p>
+      <th align="center">3</th>
+      <th align="center">4</th>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="./assets/screw_removed_opened.jpg" height="300" />
       </td>
-      <td style="vertical-align:top; padding:10px;">
-        <h3 style="text-align:center;">PCB bottom side</h3>
-        <p style="text-align:justify;">Flipping the board its finally possible to see the entire circuit. Including but not limited to the MCU, LDO, underside of the laser sensor, etc.</p>
+      <td align="center" valign="middle">
+        <img src="./assets/scanned_mouse.jpeg" height="300" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <h3 align="center">PCB top side</h3>
+        <p>After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor.</p>
+      </td>
+      <td valign="top">
+        <h3 align="center">PCB bottom side</h3>
+        <p>Flipping the board its finally possible to see the entire circuit. Including but not limited to the MCU, LDO, underside of the laser sensor, etc.</p>
       </td>
     </tr>
   </tbody>
