@@ -26,32 +26,28 @@ This project is a complete, bottom-up reverse engineering of the HP 128 laser wi
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center;">
+      <td style="text-align:center; vertical-align:top;">
         <img src="./assets/underside.jpg" style="max-width:300px; display:block; margin-left:auto; margin-right:auto;"/>
         <h3>Initial inspection</h3>
         <p>The writing on the mouse is documenting identifying details, including the model number "TPA-P002M," a specific serial number, and the manufacturing date of "February 2024". The mouse is in its initial, fully assembled state.</p>
       </td>
-      <td style="text-align:center;">
+      <td style="text-align:center; vertical-align:top;">
         <img src="./assets/sticker_removed.jpg" style="max-width:300px; display:block; margin-left:auto; margin-right:auto;"/>
         <h3>Bottom Screw Access and Disassembly</h3>
         <p>Remove the sticker to reveal the primary bottom screw. Unscrew the screw and take the unit apart.</p>
       </td>
     </tr>
-  </tbody>
-  <thead>
     <tr>
       <th style="width:50%; text-align:center;">3</th>
       <th style="width:50%; text-align:center;">4</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
-      <td style="text-align:center;">
+      <td style="text-align:center; vertical-align:top;">
         <img src="./assets/screw_removed_opened.jpg" style="max-width:300px; display:block; margin-left:auto; margin-right:auto;"/>
         <h3>PCB top side</h3>
-        <p>After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor. </p>
+        <p>After removing the screw and separating the top and bottom shells, the top of the pcb is revealed. The visible parts are the microswitches, the scroll wheel and its rotary encoder, the scroll wheel button, the USB connector, and the laser sensor.</p>
       </td>
-      <td style="text-align:center;">
+      <td style="text-align:center; vertical-align:top;">
         <img src="./assets/scanned_mouse.jpeg" style="max-width:300px; display:block; margin-left:auto; margin-right:auto;"/>
         <h3>PCB bottom side</h3>
         <p>Flipping the board its finally possible to see the entire circuit. Including but not limited to the MCU, LDO, underside of the laser sensor, etc.</p>
@@ -59,6 +55,7 @@ This project is a complete, bottom-up reverse engineering of the HP 128 laser wi
     </tr>
   </tbody>
 </table>
+
 
 ## Component Analysis
 
@@ -99,7 +96,7 @@ Some component values were not measured due to the need to de-solder them, and a
 
 To recreate the PCB, A close-up image was adjusted to the correct scale and proportions using a website called Photopea:
 
-<p align="center">  <img src="./assets/mouse_PCB.jpg" width="45%" />  <img src="./assets/Mouse_PCB_adjusted.jpg" width="45%" /></p>
+<p align="center">  <img src="./assets/Mouse_PCB.jpg" width="45%" />  <img src="./assets/Mouse_PCB_adjusted.jpg" width="45%" /></p>
 
 Then, the image was placed in the PCB view in KiCad, and all of the components and traces were placed according to the image.
 
